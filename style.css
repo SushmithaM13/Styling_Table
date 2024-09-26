@@ -1,0 +1,46 @@
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #999;
+}
+
+thead th {
+    background-color: #e0e0e0;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid #999;
+    font-style: italic;
+}
+
+tbody td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #999;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody td strong {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+tbody td:nth-child(3) {
+    text-align: left;
+}
+
+tfoot td {
+    text-align: right;
+    font-weight: bold;
+}
